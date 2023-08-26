@@ -12,5 +12,10 @@ public class UserController {
 		return "Hello Kubernetes";
 		
 	}
+	@GetMapping("/hello2")
+	public String hello2() {
+		System.out.println("Hello Docker");
+		return "Hello Docker";
+	}
 
 }
